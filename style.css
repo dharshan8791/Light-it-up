@@ -1,0 +1,158 @@
+*{
+border: 0;
+margin: 0;
+}
+@font-face {
+    font-family: montez;
+    src: url(Assets/Montez-Regular.ttf);
+}
+@font-face {
+    font-family: montserrat;
+    src: url(Assets/Montserrat-VariableFont_wght.ttf);
+}
+body
+{
+    padding-left: 120px;
+    padding-right: 100px;
+    margin-bottom: 163px;
+    background-image: url("Assets/bgimage.png");
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.menu
+{
+    margin-right: 40px;
+}
+.menu li
+{
+    list-style-type: none;
+}
+.menu li a
+{
+    text-decoration: none;
+    display: block;
+    background-color: transparent;
+    color: #ffd89e;
+    padding: 20px;
+    font-family: montserrat;
+    font-size: 14px;
+}
+.nav
+{
+    display: flex;
+    justify-content: space-between;
+    height: 125px;
+    align-items: end;
+}
+.logo
+{
+    display: flex;
+    align-items: end;
+    /* padding-left: 55px;*/
+}
+.menu ul
+{
+    display: flex;
+}
+.hero
+{
+    display: flex;
+    justify-content: space-between;
+}
+.hero-img
+{
+    display: flex;
+    /* background-image: url(Assets/Hero\ Image.png);
+    background-repeat: no-repeat;
+    padding: 335px;
+    background-size: 670px auto; */
+    /* align-items: baseline; */
+    /* margin-top: 80px; */
+}
+.hero-button
+{
+    display: flex;
+    margin-top: 70px;
+    font-family: montez;
+    align-items: center;
+}
+.hero-button a
+{
+    display: block;
+    background-image: linear-gradient(#c73b0a,#381205);
+    /* background-color: #c73b0a; */
+    color: #ffffff;
+    /* height: 50px; */
+    text-align: left;
+    padding-left: 60px;
+    padding-right: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 24px;
+    text-decoration: none;
+    border-radius: 30px;
+}
+.hero-button-stars
+{
+    width: auto;
+    height: 60px;
+    padding-left: 60px;
+}
+.button-icon
+{
+    padding-left: 35px;
+    width: auto;
+    height: 14px;
+}
+.hero-large-text
+{
+    font-family: montserrat;
+    font-size: 65px;
+    font-weight: 550;
+    color: #ffffff;
+}
+.logo-text
+{
+    font-family: montez;
+    font-size: 45px;
+    color: #ffa463;
+    font-weight: 200;
+}
+.logo img
+{
+    height: 60px;
+    padding-bottom: 15px;
+}
+.line
+{
+    font-size: 30px;
+    padding-left: 1px;
+    padding-top: 95px;
+    padding-bottom: 40px;
+    color: #ffd89e;
+}
+.hero-text-small
+{
+    padding-top: 40px;
+    font-family: montserrat;
+    color: #ffffff;
+}
+.hero-face
+{
+    position: relative; 
+    /* width: 670px; */
+    width: auto;
+    height: 500px;    
+    padding-top: 65px;
+} 
+.hero-stars
+{
+    position: absolute;
+    /* margin-right: 100px; */
+    width: 70px;
+    height: 70px;
+    /* padding-bottom: 200px; */
+    padding-left: 475px;
+    padding-top: 60px;
+}
